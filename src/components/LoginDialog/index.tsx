@@ -22,8 +22,6 @@ function LoginDialog() {
         console.log(errors)
     }
 
-    console.log(errors)
-
     return (
         <Transition appear show={isOpen} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={closeModal}>
